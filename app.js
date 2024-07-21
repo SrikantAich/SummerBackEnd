@@ -13,7 +13,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-   origin: 'https://summerpep.srikant.tech/', // Allow requests from any origin
+   origin: '*', // Allow requests from any origin
    methods: ['GET', 'POST', 'PUT', 'DELETE'],
    allowedHeaders: ['Content-Type', 'Authorization'],
 }));
