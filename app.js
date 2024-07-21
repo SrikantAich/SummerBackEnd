@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors'); // Import cors
 const connectDB = require('./config/db');
 const hospitalRoutes = require('./routes/hospitalRoutes');
 
@@ -11,6 +12,7 @@ const port = process.env.PORT || 3000;
 connectDB();
 
 // Middleware
+app.use(cors()); // Use cors middleware
 app.use(bodyParser.json());
 
 // Routes
