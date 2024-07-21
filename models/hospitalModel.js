@@ -7,7 +7,6 @@ const hospitalSchema = new mongoose.Schema({
     speciality: { type: [String], required: true },
     rating: { type: Number, required: true },
     description: { type: String, required: true }, // New field
-    extraImageUrl: { type: String, default: '' }, // New field
     numberOfDoctors: { type: Number, required: true }, // New field
     numberOfDepartments: { type: Number, required: true } // New field
 });
