@@ -10,6 +10,6 @@ const hospitalSchema = new mongoose.Schema({
     extraImageUrl: { type: String, default: '' }, // New field
     numberOfDoctors: { type: Number, required: true }, // New field
     numberOfDepartments: { type: Number, required: true } // New field
-}, { timestamps: true }); // Added timestamps for createdAt and updatedAt
+});
 
 module.exports = mongoose.model('Hospital', hospitalSchema);
