@@ -12,7 +12,11 @@ const port = process.env.PORT || 3000;
 connectDB();
 
 // Middleware
-app.use(cors()); // Use cors middleware
+app.use(cors({
+   origin: 'https://summerpep.srikant.tech', // Allow requests from your React app's domain
+   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+   allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 app.use(bodyParser.json());
 
 // Routes
