@@ -33,13 +33,13 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/SrikantAich/SumerPEP.git
+    git clone https://github.com/SrikantAich/SummerBackEnd.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd SumerPEP
+    cd SummerBackEnd
     ```
 
 3. Install dependencies:
@@ -70,8 +70,7 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
 - **Body (JSON):**
 
     ```json
- {
-        
+    {
         "name": "TEST",
         "city": "TEST",
         "image": "TEST.JPG",
@@ -82,7 +81,6 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
         "description": "TEST",
         "numberOfDoctors": 1,
         "numberOfDepartments": 1
-        
     }
     ```
 
@@ -141,3 +139,4 @@ project-root/
 ├── app.js
 ├── package.json
 └── README.md
+License
