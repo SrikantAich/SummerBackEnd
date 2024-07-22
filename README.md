@@ -58,7 +58,7 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
 5. Start the server:
 
     ```bash
-    npm start
+    node app.js
     ```
 
 ## API Endpoints
