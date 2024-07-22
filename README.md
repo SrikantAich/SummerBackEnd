@@ -69,13 +69,19 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
 - **Body (JSON):**
 
     ```json
-    {
-        "name": "Example Hospital",
-        "address": "123 Example St",
-        "city": "Sample City",
-        "state": "Sample State",
-        "zipCode": "12345",
-        "phoneNumber": "123-456-7890"
+ {
+        
+        "name": "TEST",
+        "city": "TEST",
+        "image": "TEST.JPG",
+        "speciality": [
+            "Cardiology"
+        ],
+        "rating": 5,
+        "description": "TEST",
+        "numberOfDoctors": 1,
+        "numberOfDepartments": 1
+        
     }
     ```
 
