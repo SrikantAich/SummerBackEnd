@@ -51,6 +51,7 @@ This is a simple RESTful API for managing hospital information using Node.js, Ex
 4. Create a `.env` file in the root directory and add your MongoDB connection string and other necessary environment variables:
 
     ```env
+    PORT=`PORT NO`
     MONGO_URI=your_mongodb_connection_string
     ```
 
